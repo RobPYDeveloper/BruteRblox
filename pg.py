@@ -5,11 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-print("STARTING...")
-print("PLEASE MAKE SURE WHEN LOADED PROVIDE USERNAME!")
-print("AND A GOOD WI-FI!")
-print("PLEASE IGNORE THESE ERROR MESSAGES IT'S OK!")
-
+print("BruteRBlox (ver 0.0.2b)")
+print(" ")
+print("Please, make sure that you provide the correct username.")
+print(" ")
 # v0.0.2
 # by RobPyDev
 
@@ -35,7 +34,7 @@ def main():
     print("Getting password_list...")
     time.sleep(1)
     # Read the passwords from the password_list.txt file
-    with open("password_list.txt", "r") as f:
+    with open("/password_list.txt", "r") as f:
         passwords = [line.strip() for line in f.readlines()]
 
     print("Locating username and pass textboxes...")
@@ -107,3 +106,4 @@ def set_proxy(driver, ip, port):
 
 if __name__ == "__main__":
     main()
+
