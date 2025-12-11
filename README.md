@@ -1,8 +1,12 @@
-# BruteRblox (v0.0.2a)
+# BruteRblox (v0.0.2b)
 
 _**Locked out from your old Roblox account? And need it back?**_;
 
 **No worries**, this simple Python brute-forcer might help you out!
+
+# Update Wall
+_ver 0.0.2b_
+- Nothing special lol
 
 # How does this work?
 BruteRblox will read each line of the "_password_list.txt_" file, there, you must add your passwords and thoughts of what password it could be and run the main file. _(pg.py)_
